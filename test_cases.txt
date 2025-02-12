@@ -17,24 +17,24 @@ Expected Output:
 
 Input:
 
- Email: test@example.com, URL: https://test.com, Phone: 123-456-7890, Currency: $100.00 or $250
+ Email: test@example.com,  Phone: 123-456-7890, URL: https://test.com, Currency: $100.00 or $250
 
 Expected Output:
 
- Emails Matches: [ 'test@example.com' ]
- URLs Matches: [ 'https://test.com' ]
- Phone Numbers Matches: [ '123-456-7890' ]
+ Email Matches: [ 'test@example.com' ]
+ Phone Matches: [ '123-456-7890' ]
+ URL Matches: [ 'https://test.com' ]
  Currency Matches: [ '$100.00', '$250' ]
 
 === Test Case 3 ===
 
 Input:
 
- Email: userInput, URL: http://campustour/page, Phone: (123) 456-7890, Currency: $1,000.50
+ Email: userInput, Phone: (123) 456-7890, URL: http://campustour/page, Currency: $1,000.50
 
 Expected Output:
 
-Emails Matches: No match
-URLs Matches: [ 'http://campustour/page' ]
-Phone Numbers Matches: [ '(123) 456-7890' ]
-Currency Matches: [ '$1,000.50' ]
+ Email Matches: No match
+ Phone Matches: [ '(123) 456-7890' ]
+ URL Matches: [ 'http://campustour/page' ]
+ Currency Matches: [ '$1,000.50' ]
